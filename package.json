@@ -15,5 +15,6 @@
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
-  "export": "next export"
+  "export": "next export",
+  "type": "module"
 }
