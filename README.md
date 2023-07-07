@@ -47,10 +47,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### 算法
 
-1g=100s
-1s=100c
-1g=10000c
-
-1s=0.01g
-1c=0.01s
-1c=0.0001g
+- 1g=100s
+- 1s=100c
+- 1g=10000c
+-----------------
+- 1s=0.01g
+- 1c=0.01s
+- 1c=0.0001g
