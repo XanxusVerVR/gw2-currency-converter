@@ -32,3 +32,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## 需求
+
+### GW2 貨幣計算機功能
+- 批次新增很多筆 並把多筆加起來 自動進位
+- gold 可以一位數以上 但silver,copper最多只能兩位數
+- 乘法: 例如 23g 39s 88c 乘7等於多少? 可快速算出來
+- 23g 39s 88c 這樣等於多少c? 可快速算出來
+- 23g 39s 88c 這樣等於多少s? 可快速算出來
+- 23g 39s 88c 這樣等於多少g? 可快速算出來
+- 0g 39s 88c 這樣等於多少g? 要算出小數點
+- 除法: 我有23g 39s 88c, 那waypoint一次要3s 74c, 那我可以傳幾次? 23g 39s 88c/3s 74c
+
+### 算法
+
+1g=100s
+1s=100c
+1g=10000c
+
+1s=0.01g
+1c=0.01s
+1c=0.0001g
